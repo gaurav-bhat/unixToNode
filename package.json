@@ -1,0 +1,18 @@
+{
+  "name": "unixtonode",
+  "version": "1.0.0",
+  "description": "Unix like grep command line utility",
+  "main": "grep.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Gaurav Bhatnagar",
+  "license": "ISC",
+  "dependencies": {
+    "recursive-readdir": "^2.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  }
+}
